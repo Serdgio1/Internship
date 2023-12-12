@@ -3,7 +3,7 @@ from telebot import types
 import Classes
 from Classes import Button
 
-superAdmin = '5034471316' # Имя суперадмина
+superAdmin = '' # Имя суперадмина
 
 # Определяющие переменные
 send_all = False
@@ -13,7 +13,7 @@ id_m = 0
 ex = list()
 admin_dict = list()
 
-API_TOKEN = '6829285336:AAE8d821gRiJJJOw6OFwrlhCpKMkTMSQXfU' #Токен
+API_TOKEN = '' #Токен
 
 bot = telebot.TeleBot(API_TOKEN) # Переменная для обращения к боту
 
